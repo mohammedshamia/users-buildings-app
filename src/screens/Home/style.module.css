@@ -1,0 +1,84 @@
+.contentContainer {
+  margin-top: 80px !important;
+}
+
+.form {
+  padding: 30px 40px !important;
+  height: 100%;
+}
+
+.formBody {
+  width: 50%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 210px;
+  margin-top: 10px;
+}
+
+.contentItem {
+  box-shadow: 0 2px 20px #08091e1a;
+  height: 70vh;
+  padding: 20px 30px !important;
+  border-radius: 15px;
+}
+
+.mapView {
+  padding: 0 !important;
+}
+
+.contentTitle {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+  color: #032659;
+}
+
+.listItemTitle {
+  font-size: 16px !important;
+  color: #032659;
+  margin-right: auto;
+  cursor: pointer;
+}
+
+.listItem {
+  padding: 5px 10px !important;
+  margin: 0 0 10px !important;
+}
+
+.deleteIcon {
+  fill: red !important;
+  cursor: pointer;
+  margin: 0 5px 0 10px;
+}
+
+.editIcon {
+  fill: #032659 !important;
+  cursor: pointer;
+}
+
+.addIcon {
+  fill: #8cda16 !important;
+  cursor: pointer;
+  width: 25px;
+  height: 30px;
+  margin-right: 5px;
+}
+
+.deleteIcon:hover {
+  background: #e5e4e450;
+  border-radius: 10px;
+}
+
+.editIcon:hover {
+  background: #e5e4e450;
+  border-radius: 10px;
+}
+
+.btn {
+  width: 120px;
+}
+
+.selected {
+  color : #3d3df1 !important;
+  font-weight: 700 !important;
+}
